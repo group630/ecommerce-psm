@@ -1,0 +1,19 @@
+ecommerce-psm/                          # 项目根目录
+│
+│
+├── data/                               # 数据文件夹
+│
+├── results/                            # 结果文件夹
+│   ├── figures/                        # 图表输出
+│   └── tables/                         # 表格输出
+│
+├── scripts/                            # 脚本文件夹
+│   ├── ab_simulation.py                # A/B模拟分析
+│   ├── data_preprocessing.py           # 数据预处理
+│   ├── price_elasticity.py             # 价格弹性计算
+│   ├── utils.py                        # 工具函数
+│   └── visualization.py                # 可视化
+│
+├── main.py                             # 主程序入口
+│
+└── requirements.txt                    # 依赖包清单（需要创建）
